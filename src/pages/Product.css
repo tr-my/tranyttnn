@@ -1,0 +1,75 @@
+.Product-page {
+  margin-left: 200px;
+  width: calc(100% -230px);
+  margin-top: 70px;
+  padding-top: 20px;      
+  text-align: center;
+  position: static;
+  text-align: left;
+  padding-left: 80px;
+}
+
+.h1{
+  font-size: 54px;
+  margin-bottom: 20px; 
+  width: auto; 
+  text-align: left;
+}
+.Product-table {
+  width: 100%;
+  max-width: 800px ;
+  margin-left: 20px;
+  border-collapse: collapse;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+
+
+.Product-table th, .Product-table td {
+  border: 1px solid #ddd;
+  padding: 7px;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.Product-table th {
+  background: #F2F2F2;
+}
+
+
+tbody td {
+  padding: 10px;
+  border: 1px solid #bdc3c7;
+}
+.Product-table {
+  margin-top: 20px;
+}
+
+
+.lev {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.lev img {
+  width: 24px; 
+  height: 24px; 
+  vertical-align: middle;
+}
+
+.lev img:hover {
+  opacity: 0.8; /* Tạo hiệu ứng hover */
+}
+
+.add-account-button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 20px;
+}

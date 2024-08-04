@@ -1,0 +1,61 @@
+
+.add-category-form{
+    margin-left: 250px;
+    padding: 20px;
+    margin-top: 60px;
+    position: fixed;
+    width: calc(100% - 250px); 
+
+}
+
+.h1{
+    font-size: 34px;
+    margin-bottom: 20px;
+    padding-top: 40px;
+    width: auto; 
+    text-align: left;
+  }
+
+
+.form-group {
+    display: flex;
+    flex-direction: column; /* Xếp dọc theo chiều cột */
+    align-items: flex-start; /* Canh lề bên trái */
+}
+
+.toggle-input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.toggle-slider {
+    position: relative;
+    display: inline-block;
+    width: 40px; /* Điều chỉnh chiều rộng theo nhu cầu */
+    height: 19px; /* Điều chỉnh chiều cao theo nhu cầu */
+    background-color: red;
+    border-radius: 19px; /* Để tròn */
+    transition: background-color 0.4s;
+    margin-top: 10px; /* Khoảng cách giữa label và công tắc */
+}
+
+.toggle-slider::before {
+    content: "";
+    position: absolute;
+    height: 15px; /* Chiều cao của vòng trượt */
+    width: 15px; /* Chiều rộng của vòng trượt */
+    border-radius: 50%;
+    background-color: white;
+    left: 2px; /* Vị trí từ bên trái */
+    bottom: 2px; /* Vị trí từ phía dưới */
+    transition: transform 0.4s;
+}
+
+.toggle-input:checked + .toggle-slider {
+    background-color: #4caf50; /* Màu xanh khi chọn */
+}
+
+.toggle-input:checked + .toggle-slider::before {
+    transform: translateX(21px); /* Di chuyển vòng trượt khi chọn */
+}

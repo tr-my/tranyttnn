@@ -1,0 +1,47 @@
+/* Định dạng tổng thể cho layout */
+.sidebar-layout {
+    display: flex;
+  }
+
+  .sidebar {
+    width: 200px; 
+    background-color: #2C3E50;
+    height: 100vh;
+    color: white;
+    
+    padding: 20px;
+  }
+  
+   
+    .main-content {
+        position: relative;
+      }
+  
+  
+  .navbar {
+    display: flex;
+    top: 0;
+  }
+
+  .navbar .search-bar {
+    flex-grow: 1;
+    margin-right: 20px;
+  }
+  
+  .navbar .logout-button {
+    margin-left: 20px;
+  }
+
+  .page-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  
+  
+  
+
+  
+  
+
+  

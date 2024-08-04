@@ -1,0 +1,17 @@
+.Coupon-page {
+  margin-left: 250px;
+  padding: 20px;
+  margin-top: 60px;
+  position: fixed;
+  width: calc(100% - 250px);
+}
+
+.h1{
+  font-size: 34px;
+  margin-bottom: 20px;
+  padding-top: 40px;
+  width: auto; 
+  text-align: left;
+}
+
+  

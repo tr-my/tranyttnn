@@ -1,0 +1,136 @@
+.account-container {
+    margin-left: 230px;
+    width: calc(100% - 230px);
+    margin-top: 100px;
+    padding-left: 40px;
+  }
+  
+  .h1{
+    font-size: 54px;
+    margin-bottom: 20px;
+    width: auto; 
+    text-align: left;
+  }
+
+  .account-table {
+    width: 100%;
+    max-width: 800px;
+    margin-left: 20px;
+    border-collapse: collapse;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+
+  .account-table th, .account-table td {
+    height: 27px;
+    border: 1px solid #ddd;
+    padding: 7px;
+    align-items: center; 
+    justify-content: flex-start;
+  
+  }
+
+  .account-table th {
+    background: #F2F2F2;
+  }
+
+
+  tbody td {
+    height: 27px;
+    padding: 10px;
+    border: 1px solid #bdc3c7;
+  }
+  .account-table {
+    margin-top: 20px;
+  }
+
+
+.lev {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.lev img {
+    width: 24px;
+    height: 24px; 
+    vertical-align: middle;
+}
+
+.lev img:hover {
+    opacity: 0.8; 
+}
+
+
+
+.delete-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+ 
+  .delete-modal-content {
+    text-align: left;
+    background-color: white;
+    border-radius: 20px;
+    width: 474px;
+    height: 160px;
+    padding: 20px;
+      
+  }
+
+  .modal-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .h1{
+    font-size: 20px;
+  }
+  .p{
+    font-size: 18px;
+  }
+ 
+  .modal-buttons {
+    display: flex;
+    justify-content: flex-end; 
+  }
+ 
+  .delete-button {
+    background-color: #FF5630;
+    color: white;
+    border: none;
+    width: 60px;
+    height: 35px;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    text-decoration: none;
+  }
+ 
+  .cancel-button {
+    width: 60px;
+    height: 35px;
+    color: black;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    text-decoration: none;
+  }
+ 
+
+ 
+
+  
+  

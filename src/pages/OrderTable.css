@@ -1,0 +1,75 @@
+
+.order-table {
+  margin-left: 230px;
+    width: calc(100% - 230px);
+    margin-top: 60px;
+    padding-left: 40px;
+}
+
+.order-table th, .order-table td {
+  border: 1px solid #ddd;
+  padding: 7px;
+  align-items: center; 
+  justify-content: flex-start;
+
+}
+
+.order-table th {
+  background: #F2F2F2;
+}
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    padding-top: 40px;
+    align-items: center; 
+
+  }
+  .h1{
+    font-size: 25px;
+    margin-bottom: 20px;
+    width: auto; 
+    text-align: left;
+  }
+ 
+  tbody td {
+    padding: 10px;
+    border: 1px solid #bdc3c7;
+}
+.account-table {
+    margin-top: 20px;
+}
+
+
+.date-picker {
+  display: flex;
+  align-items: center;
+  padding-right: 40px;
+}
+
+.date-picker label {
+  margin: 0 10px;
+}
+  .completed {
+    color: green;
+  }
+  
+  .processing {
+    color: orange;
+  }
+  
+  .action-button {
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+  
+  .action-button svg {
+    font-size: 18px;
+  }
+  
+
+  .lev{
+    color: black;
+  }

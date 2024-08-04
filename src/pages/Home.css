@@ -1,0 +1,56 @@
+.dashboard {
+    margin-top: 20px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.overview {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.overview > div {
+    background-color: #ecf0f1;
+    padding: 5px;
+    border-radius: 4px;
+    width: 30%;
+    box-sizing: border-box;
+}
+
+.overview > div h2 {
+    font-size: 18px; 
+}
+
+.overview > div p {
+    font-size: 14px; 
+}
+
+.charts {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sales-chart {
+    width: 50%;
+    max-width: 300px;
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.inventory-chart {
+    width: 50%;
+    max-width: 300px;
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+

@@ -1,0 +1,67 @@
+.account-form-container {
+    margin-left: 250px;
+    flex: 1;
+    margin-top: 120px;
+    padding-left: 40px ;
+  }
+
+.h1{
+    font-size: 24px;
+    margin-bottom: 20px; 
+    margin-left: 0px;
+    width: auto; 
+    text-align: left;
+  }
+  .adco-group input
+  {width: 315px; /* Chiều dài của các trường nhập liệu */
+    height: 35px;
+}
+
+
+
+  .adco-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    width: 60%;
+    margin-left: 20px;
+}
+
+.adco-group label {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.adco-actions {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 240px;
+}
+
+
+.adco-actions .thay {
+    height: 26px;
+    border-radius: 5px;
+    margin-right: 6px;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+.adco-actions .thay:first-child {
+    background-color: #3972A7;
+    color: white;
+    border: none;
+}
+
+.adco-actions .thay:last-child {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+
+
+
+
+
